@@ -19,7 +19,7 @@ setup(
     license='GNU GPL 3.0',
     packages=['battuesha'],
     include_package_data=True,
-    install_requires=['pandas', 'flask', 'reader'],
+    install_requires='requirements',
 )
 if __name__ == '__main__':
     APP.run()

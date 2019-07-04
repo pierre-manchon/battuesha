@@ -5,8 +5,10 @@ Fichier principal de traitement des données battues
     - Remise en forme des données
     - Ajout à la suite du fichier précédent
 
-Commande utilisée pour la compilation
-pyinstaller --onefile app.py
+Commande utilisée pour la compilation :
+    pyinstaller --clean -D -n battuesha battuesha/app.py
+Commande utilisée pour la création d'un executable :
+    python setup.py bdist_msi
 """
 
 # init des var de base
